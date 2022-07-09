@@ -1,0 +1,59 @@
+/* header */
+.menu{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.menu-1{
+  top: 40px;
+  left: 5vw;
+}
+
+button{
+  background-image: linear-gradient(#02457A, #0B8ABE);
+  width: 15vw;
+  height: 15vw;
+  border: none;
+  border-radius: 100%;
+  font-size: 3em;
+  color: white;
+}
+
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 125%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.menu button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+section{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.button-on{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50vh - 100px);
+  left: calc(50vw - 100px);
+}

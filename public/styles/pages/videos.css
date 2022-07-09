@@ -1,0 +1,50 @@
+/* header */
+
+.img-background{
+  background-color: black;
+}
+
+
+header{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.menu-1{
+  top: 40px;
+  left: 5vw;
+}
+.menu-2{
+  bottom: 0;
+  right: 213px
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 125%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.menu button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+iframe{
+  width: 100vw;
+  height: 90vh;
+  margin-top: 10vh;
+}
