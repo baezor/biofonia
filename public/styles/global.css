@@ -1,71 +1,76 @@
-
-/* <link rel="stylesheet" href="https://use.typekit.net/zcj1wyn.css"> */
 @import url("https://use.typekit.net/zcj1wyn.css");
 
-*{
+html {
+  scroll-behavior: smooth;
+}
+
+* {
   padding: 0;
   margin: 0;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-body{
+body {
   position: relative;
-  font-family: "cubano",sans-serif;
-  font-weight: 100;
+  font-family: "cubano", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
 }
 
-img{
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.container{
+.container {
   width: calc(100vw - 10vw);
-  padding: 5vw;
+  padding: 0 5vw;
   height: calc(100vh - 10vw);
+  margin: 0 auto;
 }
 
-.container-h-auto{
+.container-h-auto {
   height: auto;
   width: calc(100vw - 10vw);
-  padding: 5vw;
+  padding: 0 5vw;
+}
+.intro-box {
+  text-align: center;
 }
 
-body{
-  color: #FFFFFF;
-}
-p{
+p {
   font-size: 150%;
-  width: 50%;
+  width: 100%;
+  max-width: 480px;
   text-align: center;
-  font-family: arial;
+  font-family: var(-ff);
 }
-.relative{
+.relative {
   position: relative;
 }
-.flex{
+.flex {
   display: flex;
 }
 .center-y-x,
-.center-x-y{
+.center-x-y {
   justify-content: center;
   align-items: center;
 }
-.center-y{
+.center-y {
   align-items: center;
 }
-.center-x{
+.center-x {
   justify-content: center;
 }
-.center-x-evenly{
+.center-x-evenly {
   justify-content: space-evenly;
 }
 
-.flex-colum{
+.flex-colum {
   flex-direction: column;
 }
 
@@ -82,21 +87,54 @@ p{
   height: auto;
 }
 
-.content-all{
+.content-all {
   width: 100%;
   height: 100%;
 }
 
-.margin-bottom-super-small{
+.margin-bottom-super-small {
   margin-bottom: 2vh;
 }
-.margin-bottom-small{
+.margin-bottom-small {
   margin-bottom: 5vh;
 }
-.margin-bottom-medium{
+.margin-bottom-medium {
   margin-bottom: 10vh;
 }
 
-.object-fit-cover{
+.object-fit-cover {
   object-fit: cover !important;
+}
+
+.intro {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-intro {
+  height: 100vh;
+  min-height: 100vh;
+}
+.page-section {
+  padding: 120px 0;
+}
+.cta-download {
+  border-radius: 9999px;
+  padding: 10px 18px;
+  font-size: 16px;
+  line-height: 1;
+  display: inline-flex;
+  border: 2px solid white;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  white-space: pre;
+  transition: all 300ms ease-out;
+}
+.cta-download:hover {
+  background-color: #02457a;
+  color: white;
+  border-color: #02457a;
 }
